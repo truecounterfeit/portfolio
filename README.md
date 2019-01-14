@@ -1,4 +1,4 @@
-##Kelati Andemichael
+## Kelati Andemichael
 #### PORTFOLIO
 ### [Linked In](https://www.linkedin.com/in/kandemichael/)  
 ### [Github](https://github.com/truecounterfeit)
@@ -32,6 +32,6 @@ JavaScript
 
 ## [DraftKats](https://github.com/truecounterfeit/DraftKats)  
 
-**DraftKats** Live Fantasy Football mock draft responsive web application
+**DraftKats** is a live Fantasy Football mock draft responsive web application.
 
 JavaScript, HTML5, CSS
