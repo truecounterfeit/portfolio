@@ -34,4 +34,4 @@ JavaScript
 
 **DraftKats** Live Fantasy Football mock draft responsive web application
 
-JavaScript, HTML5, CSS
+JavaScript, HTML5, CSS,
