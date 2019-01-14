@@ -1,10 +1,9 @@
-##Kelati Andemichael
-#### PORTFOLIO
-### [Linked In](https://www.linkedin.com/in/kandemichael/)  
-### [Github](https://github.com/truecounterfeit)
+## Kelati Andemichael
+####  [Linked In](https://www.linkedin.com/in/kandemichael/)  
+####  [Github](https://github.com/truecounterfeit)
 
 
-Thank you for taking the time to view my portfolio, should you have any questions, feel free to contact me. My resume is available [here]https://github.com/truecounterfeit/webpage/blob/master/resume/READ.md).  
+Thank you for taking the time to view my portfolio, should you have any questions, feel free to contact me. My resume is available [here](https://github.com/truecounterfeit/webpage/blob/master/resume/READ.md).  
 
 Listed below are an example of several projects, all public facing, that I have collaborated on or created on my own.
 
