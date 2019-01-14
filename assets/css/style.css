@@ -1,0 +1,3 @@
+/* minimal theme */
+
+@import "{{ site.theme }}";
