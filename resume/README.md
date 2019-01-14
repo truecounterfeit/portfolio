@@ -3,7 +3,7 @@
 ### 206-949-6820
 ### [kandemichael@icloud.com](mailto:kandemichael@icloud.com)  
 ### [linkedin.com/in/kandemichael](linkedin.com/in/kandemichael)  
-### [lgithub.com/truecounterfeit](github.com/truecounterfeit)
+### [lgithub.com/truecounterfeit](github.com/truecounterfeit) 
 
 ## Profile
  Web developer with a focus on responsive web design and a background in business and graphic design. Applying my entrepreneurial background, project management, and communication skills in a fast-paced, deadline-driven work culture of problem solving.
