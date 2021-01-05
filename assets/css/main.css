@@ -300,8 +300,9 @@ input, select, textarea {
 	}
 
 	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
+		background-size: 1500px auto;
+		width: 4500px;
+	}
 	}
 
 /* Overlay */
@@ -724,6 +725,7 @@ input, select, textarea {
 		position: absolute;
 		text-align: center;
 		width: 100%;
+		color: rgba(255, 255, 255, 0.5);
 	}
 
 /* Wide */
@@ -806,7 +808,8 @@ input, select, textarea {
 		#bg {
 			background-size: 1500px auto;
 			width: 4500px;
-		} }
+		}
+	}
 
 /* Normal */
 
@@ -886,9 +889,11 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 750px auto;
-			width: 2250px;
-		} }
+			background-size: 1500px auto;
+			width: 4500px;
+		}
+		}
+	}
 
 /* Mobile */
 
@@ -972,8 +977,9 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 300px auto;
-			width: 900px;
+			background-size: 1500px auto;
+			width: 4500px;
+		}
 		}
 
 	/* Header */
@@ -1070,9 +1076,26 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
+			background-size: 1500px auto;
+			width: 4500px;
 		}
+
+
+		}
+
+
+		#header p {
+			font-size: 1.2em;
+		}
+
+
+	/* Tiny Screens */
+			@media screen and (max-width: 240px) {
+
+				#header h1 {
+					font-size: 2em;
+				}
+			}
 
 	/* Header */
 
