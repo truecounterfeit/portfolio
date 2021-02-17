@@ -52,6 +52,14 @@
 			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			var setBg = () => {
+  			const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  			let hexColor = "#" + randomColor;
+  			console.log("The background color is " + hexColor + ".");
+ 				var bg = document.getElementById('bg');
+				bg.style.backgroundColor = hexColor;
+			}
+			setBg();
 		</script>
 	</body>
 </html>
