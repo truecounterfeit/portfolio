@@ -41,37 +41,17 @@
 			</div>
 		</div>
 		<script>
-			// Utility function to generate a random hex color
-			const generateRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-
-			// Function to set background color
-			const setBackgroundColor = () => {
-			const hexColor = generateRandomHexColor();
-			console.log(`The background color is ${hexColor}.`);
-			document.getElementById('bg').style.backgroundColor = hexColor;
-			};
-
-			// Function to handle page load actions
-			const onPageLoad = () => {
-			document.body.classList.remove('is-preload');
-			setBackgroundColor();
-			};
-
-			// Function to prevent touch move actions
-			const preventTouchMove = (event) => {
-			event.preventDefault();
-			};
-
-			// Function to reset scroll position on orientation change
-			const resetScrollOnOrientationChange = () => {
-			document.body.scrollTop = 0;
-			};
-
-			// Event listeners
-			window.addEventListener('load', onPageLoad);
-			window.addEventListener('touchmove', preventTouchMove, { passive: false });
-			window.addEventListener('orientationchange', resetScrollOnOrientationChange);
-
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			var setBg = () => {
+  			const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  			let hexColor = "#" + randomColor;
+  			console.log("The background color is " + hexColor + ".");
+ 				var bg = document.getElementById('bg');
+				bg.style.backgroundColor = hexColor;
+			}
+			setBg();
 		</script>
 	</body>
 </html>
